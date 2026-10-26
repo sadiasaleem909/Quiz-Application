@@ -78,8 +78,8 @@ let questionNo = 0
 let  score = 0
 const showQuestion = ()=>{
   if(questionNo != questions.length){
-    quizbox.innerHTML = `<h1> ${questionNo + 1} : ${questions[questionNo].
-      question}</h1>
+    quizbox.innerHTML = `<h3> ${questionNo + 1} : ${questions[questionNo].
+      question}</h3>
       <label> 
           <input type="radio" name="options" value="${questions[questionNo].option1}" />
           ${questions[questionNo].option1}
